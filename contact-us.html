@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact us</title>
+</head>
+
+<body>
+    <form action="mailto: iammih1989@gmail.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td> <label>Your name:</label></td>
+                <td>
+                    <input type="text" name="yourName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>E-mail:</label>
+                </td>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Message:</label>
+                </td>
+                <td>
+                    <textarea name="message" id="" cols="30" rows="10"
+                        placeholder="Type in your message here"></textarea>
+                </td>
+            </tr>
+        </table>
+        <input type="range" min="1" max="10" step="1" list="markers" />
+        <datalist id="markers">
+            <option value="0">0</option>
+            <option value="2">2</option>
+            <option value="5">5</option>
+            <option value="8">8</option>
+        </datalist>
+        <input type="submit" value="ok">
+    </form>
+
+    <fieldset>
+        <legend>Legend for fieldset</legend>
+        <label for="">Label 1</label><br>
+        <label for="">Label 2</label><br>
+        <label for="">Label 3</label><br>
+    </fieldset>
+</body>
+
+</html>
